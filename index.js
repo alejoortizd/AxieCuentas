@@ -15,7 +15,7 @@ function getPrice() {
 app.get("/", async (req, res) => {
   const price = await getPrice();
   const response = await fetch(
-    "https://gist.githubusercontent.com/alejoortizd/5673799a736de56bc81ebf7942840670/raw/a5b326ffd64bc7c7f6aeb57c5c0e0ed20be4a5d7/file.txt"
+    "https://gist.githubusercontent.com/alejoortizd/5673799a736de56bc81ebf7942840670/raw/81b5edbd07e99b7edf0c39d63f8d4abfa6623a9e/file.txt"
   )
     .then((res) => res.text())
     .then((res) => res.split("\n"))
